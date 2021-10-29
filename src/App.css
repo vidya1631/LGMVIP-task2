@@ -1,0 +1,59 @@
+
+.navbar {
+  background-color: #e9edc9;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navitems h2 {
+  text-align: left;
+  font-size: 30px;
+  display: inline-block;
+  color: black;
+  font-style: italic;
+}
+
+.navitems button {
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+  width: 200px;
+  height: 70px;
+  background-color: #d4a373;
+  font-family: 'Segoe UI';
+  font-size: 25px;
+  color: white;
+  border-radius: 150px;
+  border: 1px solid #e4e2e7;
+  border-radius: 10px;
+}
+
+.fetchbtn:hover {
+  background-color: #faedcd;
+  border-color: #faedcd;
+}
+
+.main {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile_cont {
+  border-radius: 1%;
+   background-image:  linear-gradient(180deg, #E9EDC9 0.02%, #DDBEA9 120.49%);
+  /*background-color: #e6ccb2;*/
+  /*background-image:  linear-gradient(51.22deg, #E9EDC9 10.31%, #FFE8D6 104.2%, #A5A58D 116.01%);*/
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s;
+}
+
+.profile_cont:hover {
+  transform: scale(1.07);
+}
